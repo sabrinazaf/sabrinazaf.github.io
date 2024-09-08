@@ -2,8 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead) 
-last_name: Sabrina Zafar
+title: blank 
+first_name: Sabrina  
+last_name: Zafar
 email: sabrinaz@alumni.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
  Bienvenue! This space is where I share my CV, projects I have worked on, and thoughts I have had about various topics I find interesting. If you're interested in learning more, please feel free to contact me. 
@@ -68,13 +69,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-acm_id: # your dl.acm.org/profile/id
-blogger_url: # your blogger URL
-bluesky_url: # your bluesky URL
-dblp_url: # your DBLP profile url
-discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: # your facebook id
-flickr_id: # your flickr id
 github_username: sabrinazaf
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
@@ -130,8 +124,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: thoughts # blog_name will be displayed in your blog page
+blog_description: various rabbit holes I have ventured down
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
