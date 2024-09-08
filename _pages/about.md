@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_4909.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York, NY </p>
