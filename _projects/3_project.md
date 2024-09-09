@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Tepper Research Journal 
+description: Tepper Research Journal was co-founded by Professor Laurence Ales of Carnegie Mellon University and myself in 2019. 
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://tepperresearchjournal.com
 importance: 3
 category: work
 ---
