@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Kaggle Profile 
+description: I have enjoyed exploring different datasets hosted on Kaggle over the years. 
+img: assets/img/kaggle.jpg
 importance: 1
 category: work
 related_publications: true
