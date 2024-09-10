@@ -6,5 +6,8 @@ repo_description_lines_max: 2
 github_repos:
   - sabrinazaf/binarylogregression
   - sabrinazaf/movers_stayers
+  - sabrinazaf/hidden_markov_model
+  - sabrinazaf/q_learning
+  - sabrinazaf/binarylogregression
   - sabrinazaf/36-315proj
   - sabrinazaf/Freshmancodingproject
