@@ -2,10 +2,11 @@
 layout: page
 title: Kaggle Profile 
 description: I have enjoyed exploring different datasets hosted on Kaggle over the years. 
-img: assets/img/kaggle.jpg
+img: assets/img/1.jpg
 importance: 1
 category: work
-related_publications: true
+redirect: https://www.kaggle.com/sabrinazaf
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
