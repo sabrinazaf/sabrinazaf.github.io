@@ -19,9 +19,8 @@
       "summary": "Oversee the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM",
       "highlights": ["Optimized event-driven and long-short equity strategies, reducing daily runtime by over 50 percent and improved risk-adjusted returns",
 "Built scalable portfolio valuation and market data aggregation framework in Python, replacing spreadsheets for daily valuation of $400MM portfolio",
-"Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments" 
-        },      
-    
+"Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"
+        },
     {
       "name": "Citi",
       "position": "Emerging Markets Quantitative Summer Analyst",
