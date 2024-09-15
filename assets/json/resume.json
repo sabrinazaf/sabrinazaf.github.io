@@ -7,10 +7,10 @@
     "phone": "(703) 655-5521",
     "url": "https://sabrinaz.github.io",
     "summary": "Intellectually curious professional with experience in investment strategy research.  Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making. Robust knowledge of numerous programming languages, statistical and machine learning models, and financial instruments. Eager to leverage and further develop analytical skills and technical expertise to contribute to the success of an investment management firm",
-  },
+           },
   
   "work": [
-    {
+      {
       "name": "UBS Asset Management",
       "position": "Quantiative Investment Solutions Analyst ",
       "url": "https://am.credit-suisse.com/us/en/asset-management/investment-solutions/quantitative-investment-strategies.html",
@@ -20,7 +20,7 @@
       "highlights": ["Optimized event-driven and long-short equity strategies, reducing daily runtime by over 50 percent and improved risk-adjusted returns",
 "Built scalable portfolio valuation and market data aggregation framework in Python, replacing spreadsheets for daily valuation of $400MM portfolio",
 "Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"
-        },
+    },
     {
       "name": "Citi",
       "position": "Emerging Markets Quantitative Summer Analyst",
@@ -31,7 +31,7 @@
 "Conducted analysis of the ESG strategies of various emerging markets energy companies leveraging alternative data",
 "Employed SQL, Python, and Bloomberg functions to perform quantitative data analysis for a diverse portfolio of products", 
 "Shadowed quantitative trading desks across the firm, presented research on emerging cryptocurrencies in new cryptocurrency market intelligence initiative"
-    }
+  }
   ],
   "volunteer": [
     {
