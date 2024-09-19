@@ -33,16 +33,14 @@
 "Shadowed quantitative trading desks across the firm, presented research on emerging cryptocurrencies in new cryptocurrency market intelligence initiative"
   }
   ],
-  "volunteer": [
+  "extracurriculars": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "FORGE (Forging Opportunities for Refugee Growth and Empowerment)",
+      "location": "Pittsburgh, PA",
+      "position": "President",
+      "startDate": "2021-01-01",
+      "endDate": "2022-07-01",
+      "summary": "President and Member of CMU's chapter of FORGE (Forging Opportunities for Refugee Growth and Empowerment), a club dedicated to providing resources and mentorship to Pittsburgh's refugee population. ",
     }
   ],
   "education": [
@@ -63,12 +61,12 @@
     {
       "title": "CMU Leadership Award",
       "date": "2022-05-01",
-      "summary": "Awarded to undergraduates who have demonstrated exception leadership ability. Leadership poistions include serving as the president of two notable clubs (Economics Research Journal and FORGE (Forging Opportunities for Refugee Growth and Empowerment) among other club positions."
+      "summary": "Awarded to undergraduates who have demonstrated exceptional leadership ability. Leadership positions include serving as the president of two notable clubs (Economics Research Journal and FORGE (Forging Opportunities for Refugee Growth and Empowerment) among other club positions."
     }
       {
-      "title": "CMU Leadership Award",
+      "title": "Goldman Sachs Stock Pitch Finalist",
       "date": "2022-05-01",
-      "summary": "Awarded to undergraduates who have demonstrated exception leadership ability. Leadership poistions include serving as the president of two notable clubs (Economics Research Journal and FORGE (Forging Opportunities for Refugee Growth and Empowerment) among other club positions."
+      "summary": "Awarded to undergraduates who have demonstrated exceptional leadership ability. Leadership positions include serving as the president of two notable clubs (Economics Research Journal and FORGE (Forging Opportunities for Refugee Growth and Empowerment) among other club positions."
     }
     
   ],
