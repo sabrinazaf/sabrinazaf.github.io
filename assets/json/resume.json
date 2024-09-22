@@ -19,7 +19,7 @@
       "summary": "Oversee the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM",
       "highlights": ["Optimized event-driven and long-short equity strategies, reducing daily runtime by over 50 percent and improved risk-adjusted returns",
 "Built scalable portfolio valuation and market data aggregation framework in Python, replacing spreadsheets for daily valuation of $400MM portfolio",
-"Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"
+"Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"]
     },
     {
       "name": "Citi",
@@ -30,9 +30,9 @@
       "highlights": ["Researched quasi-sovereign credits in emerging markets, presented analysis to external stakeholders",
 "Conducted analysis of the ESG strategies of various emerging markets energy companies leveraging alternative data",
 "Employed SQL, Python, and Bloomberg functions to perform quantitative data analysis for a diverse portfolio of products", 
-"Shadowed quantitative trading desks across the firm, presented research on emerging cryptocurrencies in new cryptocurrency market intelligence initiative"
-  }
-  ],
+"Shadowed quantitative trading desks across the firm, presented research on emerging cryptocurrencies in new cryptocurrency market intelligence initiative"]
+    }
+  ]
   "extracurriculars": [
     {
       "organization": "Economics Research Journal",
@@ -61,7 +61,7 @@
       "startDate": "2018-08-01",
       "endDate": "2022-05-01",
       "gpa": "3.8",
-      "courses": ["Applied Machine Learning","Programming and Computer Science","Principles of Imperative Computation", "
+      "courses": ["Applied Machine Learning","Programming and Computer Science","Principles of Imperative Computation", 
         "Multivariate Analysis", "Modern Regression", "Advanced Methods of Data Analysis","Probability Theory","Statistical Inference"]
     }
   ],
