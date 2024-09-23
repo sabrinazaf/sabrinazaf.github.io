@@ -12,8 +12,8 @@
   "work": [
     {
       "name": "UBS Asset Management",
-      "position": "Quantiative Investment Solutions Analyst",
-      "url": "https://am.credit-suisse.com/us/en/asset-management/investment-solutions/quantitative-investment-strategies.html",
+      "position": "Quantitative Investment Solutions Analyst",
+      "url": "https://www.ubs.com/global/en/assetmanagement.html",
       "startDate": "2022-07-01",
       "endDate": "2024-09-30",
       "summary": "Oversee the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM",
@@ -58,7 +58,7 @@
   "education": [
     {
       "institution": "Carnegie Mellon University",
-      "location": "Pittsburgh, Pennslyvania",
+      "location": "Pittsburgh, Pennsylvania",
       "url": "https://www.cmu.edu",
       "area": "Statistics and Machine Learning, Minor in Economics",
       "studyType": "B.S with Honors",
@@ -104,33 +104,29 @@
     {
       "name": "Programming",
       "level": "Proficient",
-      "icon": "",
       "keywords": [
         "- Python (sckit-learn, pandas, numpy, Pytorch, seaborn, streamlit, airflow, etc.) ",
         "- R (ggplot2,quantlib, quantstrat, stats, zoo, gbm, glmnet, tidyr, dplyr, etc.)  ",
         "- MATLAB",
         "- C",
-        "- SQL",
+        "- SQL"
       ]
     }
   ],
   "languages": [
     {
       "language": "Pashto",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
       "name": "Film",
       "url":"https://boxd.it/1cghB"
-      ]
     }
   ],
   "projects": [
