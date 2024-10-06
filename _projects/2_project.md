@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Decoding Barriers 
+description: Decoding Barriers is a Not-for-Profit Organization dedicated to 
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: work
-giscus_comments: true
+redirect: https://www.kaggle.com/sabrinazaf
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
