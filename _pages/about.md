@@ -16,4 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Bienvenue! I'm Sabrina Zafar, a quantitative researcher, Carnegie Mellon Alumna (Statistics+ML'22), and amateur baker. This personal website is dedicated to highlighting my CV, projects, and various topics I have gone down the rabbit hole on. Feel free to reach out if you're interested in learning more about my work or simply want to say hello! 
+Bienvenue! I'm Sabrina Zafar, a Carnegie Mellon Alumna (Statistics+ML'22), human rights activist, and amateur baker. This personal website highlights my CV, projects, and passions. Feel free to reach out if you are interested in learning more about my work or want to say hello! 
