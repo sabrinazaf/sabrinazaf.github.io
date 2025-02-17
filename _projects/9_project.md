@@ -1,7 +1,7 @@
 ---
 layout: page
 title: One on One Tutoring and Test Prep
-description: Personalized Tutoring from an Experienced Tutor. 
+description: Personalized Tutoring from an Experienced, Dedicated Teacher
 img: assets/img/6.jpg
 importance: 4
 category: work
