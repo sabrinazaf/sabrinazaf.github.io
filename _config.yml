@@ -133,6 +133,8 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@sabrina_zafar/feed
+  - name: medium.com
+    rss_url: https://medium.com/@sabrinas_box/feed
 
 
 # -----------------------------------------------------------------------------
@@ -264,7 +266,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+ # these tags will be displayed on the front page of your blog
 #display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
