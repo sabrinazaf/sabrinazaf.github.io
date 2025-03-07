@@ -133,9 +133,6 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@sabrina_zafar/feed
-  - name: medium.com
-    rss_url: https://medium.com/@sabrinas_box/feed
-
 
 # -----------------------------------------------------------------------------
 # Newsletter
