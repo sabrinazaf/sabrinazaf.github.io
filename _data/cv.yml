@@ -1,104 +1,93 @@
-basics:
-  name: "Sabrina Zafar"
-  label: ""
-  image: ""
-  email: "sabrinaz@alumni.cmu.edu"
-  phone: "(703) 655-5521"
-  url: "https://sabrinaz.github.io"
-  summary: "Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making. Robust knowledge of numerous programming languages, statistical and machine learning models, and financial instruments. Eager to leverage and further develop analytical skills and technical expertise to contribute to the success of an investment management firm."
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sabrina Zafar
+    - name: Email
+      value: sabrinaz@alumni.cmu.edu
+    - name: Phone
+      value: (703) 655-5521
+    - name: Website
+      value: <a href="https://sabrinaz.github.io">sabrinaz.github.io</a>
+    - name: Summary
+      value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
 
-work:
-  - name: "UBS Asset Management"
-    position: "Quantitative Investment Solutions Analyst"
-    url: "https://www.ubs.com/global/en/assetmanagement.html"
-    startDate: "2022-07-01"
-    endDate: "2024-09-30"
-    summary: "Oversee the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM."
-    highlights:
-      - "Optimized event-driven and long-short equity strategies, reducing daily runtime by over 50 percent and improved risk-adjusted returns."
-      - "Built scalable portfolio valuation and market data aggregation framework in Python, replacing spreadsheets for daily valuation of $400MM portfolio."
-      - "Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments."
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S with Honors in Statistics and Machine Learning, Minor in Economics
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2018 - 2022
+      description:
+        - GPA: 3.8
+        - Relevant Courses:
+          - Applied Machine Learning
+          - Modern Regression
+          - Probability Theory
+          - Statistical Inference
 
-  - name: "Citi"
-    position: "Emerging Markets Quantitative Summer Analyst"
-    startDate: "2021-06-01"
-    endDate: "2021-08-15"
-    highlights:
-      - "Researched quasi-sovereign credits in emerging markets, presented analysis to external stakeholders."
-      - "Conducted analysis of the ESG strategies of various emerging markets energy companies leveraging alternative data."
-      - "Employed SQL, Python, and Bloomberg functions to perform quantitative data analysis for a diverse portfolio of products."
-      - "Shadowed quantitative trading desks across the firm, presented research on emerging cryptocurrencies in new cryptocurrency market intelligence initiative."
+- title: Experience
+  type: time_table
+  contents:
+    - title: Quantitative Investment Solutions Analyst
+      institution: UBS Asset Management
+      year: 2022 - Present
+      description:
+        - Oversee analysis and implementation of systematic strategies across multiple asset classes for $1.6B in AUM.
+        - Optimized event-driven and long-short equity strategies, improving risk-adjusted returns.
+        - Developed scalable portfolio valuation framework replacing spreadsheets for $400MM portfolio.
 
-extracurriculars:
-  - organization: "Economics Research Journal"
-    location: "Pittsburgh, PA"
-    position: "President and Co-Founder"
-    url: "https://tepperresearchjournal.com"
-    startDate: "2021-01-01"
-    endDate: "2022-07-01"
-    summary: "President and Co-Founder of CMU's Economics Research Journal, an undergraduate research publication."
-  
-  - organization: "FORGE (Forging Opportunities for Refugee Growth and Empowerment)"
-    location: "Pittsburgh, PA"
-    position: "President"
-    startDate: "2021-01-01"
-    endDate: "2022-07-01"
-    summary: "President and Member of CMU's chapter of FORGE, a club dedicated to providing resources and mentorship to Pittsburgh's refugee population."
+    - title: Emerging Markets Quantitative Summer Analyst
+      institution: Citi
+      year: 2021
+      description:
+        - Researched quasi-sovereign credits and presented findings to external stakeholders.
+        - Conducted ESG strategy analysis for emerging market energy companies.
+        - Developed cryptocurrency market intelligence initiative.
 
-education:
-  - institution: "Carnegie Mellon University"
-    location: "Pittsburgh, Pennsylvania"
-    url: "https://www.cmu.edu"
-    area: "Statistics and Machine Learning, Minor in Economics"
-    studyType: "B.S with Honors"
-    startDate: "2018-08-01"
-    endDate: "2022-05-01"
-    gpa: "3.8"
-    courses:
-      - "Applied Machine Learning"
-      - "Programming and Computer Science"
-      - "Principles of Imperative Computation"
-      - "Multivariate Analysis"
-      - "Modern Regression"
-      - "Advanced Methods of Data Analysis"
-      - "Probability Theory"
-      - "Statistical Inference"
+- title: Extracurricular Activities
+  type: time_table
+  contents:
+    - title: President and Co-Founder
+      institution: Economics Research Journal, CMU
+      year: 2021 - 2022
+      description: Led an undergraduate research publication focused on economics.
+    
+    - title: President
+      institution: FORGE (Forging Opportunities for Refugee Growth and Empowerment), CMU
+      year: 2021 - 2022
+      description: Led initiatives supporting Pittsburgh’s refugee community.
 
-awards_and_positions:
-  - title: "CMU Leadership Award"
-    date: "2022-05-01"
-    summary: "Awarded to undergraduates who have demonstrated exceptional leadership ability. Leadership positions include serving as the president of two notable clubs (Economics Research Journal and FORGE)."
-  
-  - title: "SWS Goldman Sachs Stock Pitch Finalist"
-    date: "2020-05-01"
-    summary: "Finalist in stock pitch competition hosted by CMU's chapter of SWS and Goldman Sachs."
-  
-  - title: "Citi Early ID Participant"
-    date: "2020-05-01"
-    summary: "Participant in 5-week mentorship and training program for diverse and academically gifted students interested in finance."
-  
-  - title: "Questbridge Scholar"
-    date: "2018-05-01"
-    url: "https://www.questbridge.org"
-    summary: "QuestBridge connects high-achieving students from low-income backgrounds with a thriving community and transformative educational opportunities."
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python (scikit-learn, pandas, numpy, PyTorch, seaborn, etc.)
+        - R (ggplot2, quantlib, quantstrat, stats, zoo, glmnet, etc.)
+        - MATLAB, C, SQL
 
-skills:
-  - name: "Programming"
-    level: "Proficient"
-    keywords:
-      - "Python (scikit-learn, pandas, numpy, PyTorch, seaborn, streamlit, airflow, etc.)"
-      - "R (ggplot2, quantlib, quantstrat, stats, zoo, gbm, glmnet, tidyr, dplyr, etc.)"
-      - "MATLAB"
-      - "C"
-      - "SQL"
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - CMU Leadership Award
+    - year: 2020
+      items:
+        - SWS Goldman Sachs Stock Pitch Finalist
+        - Citi Early ID Participant
+    - year: 2018
+      items:
+        - Questbridge Scholar
 
-languages:
-  - language: "Pashto"
-    fluency: "Native speaker"
-  - language: "English"
-    fluency: "Native speaker"
+- title: Languages
+  type: list
+  contents:
+    - Pashto (Native)
+    - English (Native)
 
-interests:
-  - "Human Rights Advocacy"
-  - "Film"
-  - "Baking"
+- title: Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Human Rights Advocacy, Film, Baking
