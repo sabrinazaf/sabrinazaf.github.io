@@ -2,7 +2,7 @@
 layout: page
 title: Kaggle Profile 
 description: I have enjoyed exploring different datasets hosted on Kaggle over the years. 
-img: assets/img/1.jpg
+img: assets/img/IMG_7321.jpg
 importance: 3
 category: work
 redirect: https://www.kaggle.com/sabrinazaf
