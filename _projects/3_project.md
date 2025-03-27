@@ -2,7 +2,7 @@
 layout: page
 title: Tepper Research Journal 
 description: Tepper Research Journal was co-founded by Professor Laurence Ales of Carnegie Mellon University and myself in 2019. 
-img: assets/img/7.jpg
+img:assets/img/IMG_7322.jpg
 redirect: https://tepperresearchjournal.com
 importance: 3
 category: work
