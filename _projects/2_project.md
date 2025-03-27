@@ -2,7 +2,7 @@
 layout: page
 title: Decoding Barriers 
 description: Decoding Barriers is a nonprofit organization dedicated to empowering marginalized communities in the tribal areas along the border of Afghanistan and Pakistan to reach their full potential. We partner with local organizations and community leaders to provide a better future for those who have been denied one due to military operations and socio-economic instability.
-img: assets/img/3.jpg
+img: assets/img/df482bc2-a93e-49d9-a578-017a355982ea.JPG
 importance: 1
 category: work
 redirect: https://www.decodingbarriers.org
