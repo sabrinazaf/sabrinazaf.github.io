@@ -19,8 +19,8 @@
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2018 - 2022
       description:
-        - GPA: 3.8
-        - Relevant Courses:
+      GPA: 3.8
+      Relevant Courses:
           - Applied Machine Learning
           - Modern Regression
           - Probability Theory
