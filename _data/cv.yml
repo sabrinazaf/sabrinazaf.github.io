@@ -12,6 +12,35 @@
     - name: Summary
       value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
 
+- title: Experience
+  type: time_table
+  contents:
+   - title: Portfolio Strategy Associate
+      institution: UBS Asset Management
+      year: 2024 - Present
+      description:
+        - Mast Investments is a spin-out of UBS Quantitative Investment Strategies 
+        - Develop interactive performance analytics dashboards to support internal portfolio reviews and enhance client-facing materials for investment strategy updates
+        - Partner with the CIO to lead strategic portfolio rebalancing and trading, aligning investment decisions with client mandates, macroeconomic trends, and risk parameters
+        - Oversee equity strategies that consistently outperform benchmarks, delivering detailed performance attribution, investment rationale, and forward-looking market commentary
+        - Lead investor relations and spearhead capital-raising efforts, working closely with the CIO to secure multimillion-dollar commitments from institutional investors.
+
+    - title: Quantitative Investment Solutions Analyst
+      institution: UBS Asset Management
+      year: 2022 - 2024
+      description:
+        - Oversee analysis and implementation of systematic strategies across multiple asset classes for $1.6B in AUM.
+        - Optimized event-driven and long-short equity strategies, improving risk-adjusted returns.
+        - Developed scalable portfolio valuation framework replacing spreadsheets for $400MM portfolio.
+
+    - title: Emerging Markets Quantitative Summer Analyst
+      institution: Citi
+      year: 2021
+      description:
+        - Researched quasi-sovereign credits and presented findings to external stakeholders.
+        - Conducted ESG strategy analysis for emerging market energy companies.
+        - Developed cryptocurrency market intelligence initiative.
+
 - title: Education
   type: time_table
   contents:
@@ -25,25 +54,6 @@
           - Modern Regression
           - Probability Theory
           - Statistical Inference
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Quantitative Investment Solutions Analyst
-      institution: UBS Asset Management
-      year: 2022 - Present
-      description:
-        - Oversee analysis and implementation of systematic strategies across multiple asset classes for $1.6B in AUM.
-        - Optimized event-driven and long-short equity strategies, improving risk-adjusted returns.
-        - Developed scalable portfolio valuation framework replacing spreadsheets for $400MM portfolio.
-
-    - title: Emerging Markets Quantitative Summer Analyst
-      institution: Citi
-      year: 2021
-      description:
-        - Researched quasi-sovereign credits and presented findings to external stakeholders.
-        - Conducted ESG strategy analysis for emerging market energy companies.
-        - Developed cryptocurrency market intelligence initiative.
 
 - title: Extracurricular Activities
   type: time_table
