@@ -8,7 +8,7 @@
     - name: Phone
       value: (703) 655-5521
     - name: Website
-      value: [sabrinaz.github.io](https://sabrinaz.github.io)
+      value: "<a href='https://sabrinaz.github.io'>sabrinaz.github.io</a>"
     - name: Summary
       value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
 
@@ -78,7 +78,18 @@
         - MATLAB
         - C
         - SQL
-        - Libraries/Packages: scikit-learn, pandas, numpy, PyTorch, seaborn, ggplot2, quantlib, quantstrat, stats, zoo, glmnet
+        - Libraries/Packages:
+            - scikit-learn
+            - pandas
+            - numpy
+            - PyTorch
+            - seaborn
+            - ggplot2
+            - quantlib
+            - quantstrat
+            - stats
+            - zoo
+            - glmnet
 
 - title: Honors and Awards
   type: time_table
@@ -103,4 +114,4 @@
 - title: Interests
   type: list
   contents:
-    - **Hobbies:** Human Rights Advocacy, Film, Baking
+    - "Hobbies: Human Rights Advocacy, Film, Baking"
