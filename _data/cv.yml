@@ -8,21 +8,21 @@
     - name: Phone
       value: (703) 655-5521
     - name: Website
-      value: <a href="https://sabrinaz.github.io">sabrinaz.github.io</a>
+      value: [sabrinaz.github.io](https://sabrinaz.github.io)
     - name: Summary
       value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
 
 - title: Experience
   type: time_table
   contents:
-   - title: Portfolio Strategy Associate
+    - title: Portfolio Strategy Associate
       institution: UBS Asset Management
       year: 2024 - Present
       description:
-        - Mast Investments is a spin-out of UBS Quantitative Investment Strategies 
-        - Develop interactive performance analytics dashboards to support internal portfolio reviews and enhance client-facing materials for investment strategy updates
-        - Partner with the CIO to lead strategic portfolio rebalancing and trading, aligning investment decisions with client mandates, macroeconomic trends, and risk parameters
-        - Oversee equity strategies that consistently outperform benchmarks, delivering detailed performance attribution, investment rationale, and forward-looking market commentary
+        - Mast Investments is a spin-out of UBS Quantitative Investment Strategies.
+        - Develop interactive performance analytics dashboards to support internal portfolio reviews and enhance client-facing materials for investment strategy updates.
+        - Partner with the CIO to lead strategic portfolio rebalancing and trading, aligning investment decisions with client mandates, macroeconomic trends, and risk parameters.
+        - Oversee equity strategies that consistently outperform benchmarks, delivering detailed performance attribution, investment rationale, and forward-looking market commentary.
         - Lead investor relations and spearhead capital-raising efforts, working closely with the CIO to secure multimillion-dollar commitments from institutional investors.
 
     - title: Quantitative Investment Solutions Analyst
@@ -48,12 +48,12 @@
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2018 - 2022
       description:
-      GPA: 3.8
-      Relevant Courses:
-          - Applied Machine Learning
-          - Modern Regression
-          - Probability Theory
-          - Statistical Inference
+        - GPA: 3.8
+        - Relevant Courses:
+            - Applied Machine Learning
+            - Modern Regression
+            - Probability Theory
+            - Statistical Inference
 
 - title: Extracurricular Activities
   type: time_table
@@ -73,9 +73,12 @@
   contents:
     - title: Programming
       items:
-        - Python (scikit-learn, pandas, numpy, PyTorch, seaborn, etc.)
-        - R (ggplot2, quantlib, quantstrat, stats, zoo, glmnet, etc.)
-        - MATLAB, C, SQL
+        - Python
+        - R
+        - MATLAB
+        - C
+        - SQL
+        - Libraries/Packages: scikit-learn, pandas, numpy, PyTorch, seaborn, ggplot2, quantlib, quantstrat, stats, zoo, glmnet
 
 - title: Honors and Awards
   type: time_table
@@ -100,4 +103,4 @@
 - title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Human Rights Advocacy, Film, Baking
+    - **Hobbies:** Human Rights Advocacy, Film, Baking
