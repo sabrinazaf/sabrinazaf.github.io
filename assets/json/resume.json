@@ -10,17 +10,31 @@
   },
   
   "work": [
+     {
+      "name": "Mast Investments",
+      "position": "Portfolio Strategy Associate",
+      "url": "https://www.mast-investments.com",
+      "startDate": "2024-11-25",
+      "endDate": "2025-09-30",
+      "summary": "Portfolio Strategist and Head of Investor Relations for UBS QIS Spin-Out",
+      "highlights": [
+        "Develop interactive performance analytics dashboards to support internal portfolio reviews and enhance client-facing materials for investment strategy updates",
+        "Partner with the CIO to lead strategic portfolio rebalancing and trading, aligning investment decisions with client mandates, macroeconomic trends, and risk parameters",
+        "Oversee equity strategies that consistently outperform benchmarks, delivering detailed performance attribution, investment rationale, and forward-looking market commentary",
+        "Lead investor relations and spearhead capital-raising efforts"
+      ]
+    },
     {
       "name": "UBS Asset Management",
       "position": "Quantitative Investment Solutions Analyst",
       "url": "https://www.ubs.com/global/en/assetmanagement.html",
       "startDate": "2022-07-01",
-      "endDate": "2024-09-30",
-      "summary": "Oversee the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM",
+      "endDate": "2024-11-22",
+      "summary": "Oversaw the analysis and implementation of systematic strategies across a broad range of asset classes including equities, bond futures, and commodity futures for funds totaling $1.6B in AUM",
       "highlights": [
         "Optimized event-driven and long-short equity strategies, reducing daily runtime by over 50 percent and improved risk-adjusted returns",
         "Built scalable portfolio valuation and market data aggregation framework in Python, replacing spreadsheets for daily valuation of $400MM portfolio",
-        "Manages team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"
+        "Managed team-wide production codebase, code environment, and documentation; implemented code repository and shared environment, eliminating the use of five disparate environments"
       ]
     },
     {
