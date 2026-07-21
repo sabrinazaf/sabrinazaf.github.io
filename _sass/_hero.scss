@@ -1,0 +1,219 @@
+/*******************************************************************************
+ * Feminine editorial hero — about page
+ ******************************************************************************/
+
+.fem-hero {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 2.5rem 0 3rem;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1.5rem 0 2rem;
+  }
+}
+
+.fem-hero-main {
+  flex: 1 1 58%;
+  min-width: 0;
+}
+
+.fem-hero-kicker {
+  display: flex;
+  align-items: center;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin-bottom: 1rem;
+}
+
+.fem-hero-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 0.6rem;
+  background-color: $rose-color;
+  border-radius: 1px;
+}
+
+.fem-hero-title {
+  font-family: $font-serif;
+  font-weight: 600;
+  font-size: clamp(2.2rem, 5.2vw, 3.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.5rem;
+
+  em {
+    font-style: italic;
+    font-weight: 500;
+    color: $rose-color;
+  }
+}
+
+.fem-hero-intro {
+  font-family: $font-mono;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--global-text-color-light);
+  max-width: 46ch;
+  border-left: 3px solid $rose-color;
+  padding-left: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.fem-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.fem-btn {
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.4rem;
+  border: 1px solid $rose-color;
+  background-color: $rose-color;
+  color: $white-color !important;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $terracotta-color;
+    border-color: $terracotta-color;
+    color: $white-color !important;
+  }
+}
+
+.fem-btn-outline {
+  background-color: transparent;
+  border-color: var(--global-divider-color);
+  color: var(--global-text-color) !important;
+
+  &:hover {
+    border-color: $rose-color;
+    background-color: transparent;
+    color: $rose-color !important;
+  }
+}
+
+.fem-hero-graphic {
+  position: relative;
+  flex: 1 1 38%;
+  align-self: stretch;
+  min-height: 260px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  background: linear-gradient(155deg, $cream-color-dark 0%, $cream-color 55%, #fff 100%);
+
+  @media (max-width: 767px) {
+    width: 100%;
+    min-height: 180px;
+  }
+}
+
+html[data-theme="dark"] .fem-hero-graphic {
+  background: linear-gradient(155deg, $plum-color-light 0%, $plum-color 60%, #2a1a24 100%);
+}
+
+.fem-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--global-divider-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--global-divider-color) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.7;
+}
+
+.fem-hero-circle {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 1px solid $rose-color-light;
+  opacity: 0.6;
+}
+
+.fem-hero-circle::after {
+  content: "";
+  position: absolute;
+  inset: 40px;
+  border-radius: 50%;
+  border: 1px solid $rose-color-light;
+  opacity: 0.6;
+}
+
+.fem-hero-tag {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-family: $font-mono;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 2px;
+}
+
+// Stat bar
+
+.fem-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: $plum-color;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fem-stats-item {
+  padding: 1.25rem 1.5rem;
+  border-right: 1px solid rgba(250, 243, 238, 0.12);
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @media (max-width: 767px) {
+    border-bottom: 1px solid rgba(250, 243, 238, 0.12);
+
+    &:nth-child(2) {
+      border-right: none;
+    }
+  }
+}
+
+.fem-stats-label {
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $rose-color-light;
+  margin-bottom: 0.35rem;
+}
+
+.fem-stats-value {
+  font-family: $font-serif;
+  font-size: 1rem;
+  color: $cream-color;
+  margin-bottom: 0;
+}

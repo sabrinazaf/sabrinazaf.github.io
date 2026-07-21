@@ -3,24 +3,24 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$cream-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$light-cyan-color};
-  --global-hover-color: #{$light-cyan-color};
+  --global-text-color: #{$ink-color};
+  --global-text-color-light: #{$ink-color-light};
+  --global-theme-color: #{$rose-color};
+  --global-hover-color: #{$terracotta-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #{$plum-color};
+  --global-footer-text-color: #{$rose-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(44, 33, 38, 0.12);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+  --global-highlight-color: #{$rose-color};
+  --global-back-to-top-bg-color: rgba(#{red($plum-color)}, #{green($plum-color)}, #{blue($plum-color)}, 0.6);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-newsletter-text-color: #{$ink-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -68,23 +68,23 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$plum-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-text-color: #{$cream-color};
+  --global-text-color-light: #{$rose-color-light};
+  --global-theme-color: #{$rose-color-light};
+  --global-hover-color: #{$terracotta-color};
+  --global-hover-text-color: #{$plum-color};
+  --global-footer-bg-color: #{$plum-color-light};
+  --global-footer-text-color: #{$cream-color};
+  --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-divider-color: rgba(250, 243, 238, 0.15);
+  --global-card-bg-color: #{$plum-color-light};
+  --global-back-to-top-bg-color: rgba(#{red($cream-color)}, #{green($cream-color)}, #{blue($cream-color)}, 0.5);
+  --global-back-to-top-text-color: #{$plum-color};
+  --global-newsletter-bg-color: #{$plum-color-light};
+  --global-newsletter-text-color: #{$cream-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

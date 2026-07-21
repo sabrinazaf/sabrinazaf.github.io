@@ -55,6 +55,12 @@
 {% if site.medium_username %}
   <a href="https://medium.com/@{{ site.medium_username }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
 {% endif %}
+{% if site.substack_url %}
+  <a href="{{ site.substack_url }}" title="Substack"><i class="fa-solid fa-newspaper"></i></a>
+{% endif %}
+{% if site.goodreads_url %}
+  <a href="{{ site.goodreads_url }}" title="Goodreads"><i class="fa-brands fa-goodreads"></i></a>
+{% endif %}
 {% if site.quora_username %}
   <a href="https://www.quora.com/profile/{{ site.quora_username }}" title="Quora"><i class="fa-brands fa-quora"></i></a>
 {% endif %}

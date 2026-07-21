@@ -300,6 +300,26 @@
             },
           },
         {%- endif -%}
+        {%- if site.substack_url -%}
+          {
+            id: 'socials-substack',
+            title: 'Substack',
+            section: 'Socials',
+            handler: () => {
+              window.open("{{ site.substack_url }}", "_blank");
+            },
+          },
+        {%- endif -%}
+        {%- if site.goodreads_url -%}
+          {
+            id: 'socials-goodreads',
+            title: 'Goodreads',
+            section: 'Socials',
+            handler: () => {
+              window.open("{{ site.goodreads_url }}", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.quora_username -%}
           {
             id: 'socials-quora',

@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +21,29 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3,
+.post-title,
+.navbar-brand.title {
+  font-family: $font-serif;
+  letter-spacing: -0.01em;
+}
+
+.navbar-nav .nav-link,
+#search-toggle,
+.contact-note,
+.post-meta,
+.post-tags {
+  font-family: $font-mono;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
 }
 
 hr {

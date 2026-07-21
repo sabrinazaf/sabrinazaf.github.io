@@ -2,17 +2,53 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  {% if page.hero %}
+    <section class="fem-hero">
+      <div class="fem-hero-main">
+        {% if page.hero.kicker %}
+          <p class="fem-hero-kicker"><span class="fem-hero-dot"></span>{{ page.hero.kicker }}</p>
+        {% endif %}
+        <h1 class="fem-hero-title">{{ page.hero.tagline }}</h1>
+        {% if page.hero.intro %}
+          <p class="fem-hero-intro">{{ page.hero.intro }}</p>
+        {% endif %}
+        {% if page.hero.actions %}
+          <div class="fem-hero-actions">
+            {% for action in page.hero.actions %}
+              <a href="{{ action.url }}" class="fem-btn {% if action.style == 'outline' %}fem-btn-outline{% endif %}">{{ action.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="fem-hero-graphic" aria-hidden="true">
+        <div class="fem-hero-grid"></div>
+        <div class="fem-hero-circle"></div>
+        <span class="fem-hero-tag">// EST. NYC</span>
+      </div>
+    </section>
+    {% if page.hero.stats %}
+      <div class="fem-stats">
+        {% for stat in page.hero.stats %}
+          <div class="fem-stats-item">
+            <p class="fem-stats-label">{{ stat.label }}</p>
+            <p class="fem-stats-value">{{ stat.value }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% else %}
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
+  {% endif %}
 
   <article>
     {% if page.profile %}

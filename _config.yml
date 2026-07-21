@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: Z.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 url: https://sabrinazaf.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -72,7 +72,9 @@ kaggle_id: sabrinazaf
 linkedin_username: sabrinazafar
 medium_username: sabrina_zafar
 x_username: sabrinaswap
-youtube_id: youtube.com/@sabrina_zafar # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+substack_url: https://siliconevalley.substack.com # your Substack URL
+goodreads_url: https://www.goodreads.com/user/show/140831082-sabrina-zafar # your Goodreads profile URL
 
 contact_note: >
   Feel free to drop a note: sabrinaz@alumni.cmu.edu 
