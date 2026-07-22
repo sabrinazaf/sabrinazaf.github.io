@@ -4,30 +4,27 @@ title: about
 permalink: /
 
 hero:
-  kicker: Quant Investor &amp; Writer
+  kicker: Investor &amp; Writer, Stanford GSB '28
   title: Sabrina Zafar
   tagline: >
-    The intersection of <em>finance</em> &amp; <em>storytelling</em>.
+    Spreadsheets by day, <em>stories</em> by night.
   intro: >
-    Bienvenue! I'm a Carnegie Mellon alumna (Statistics + ML '22) working in
-    quantitative investment strategy. I write on Substack and keep a running
-    list of what I'm reading — feel free to reach out if you'd like to connect.
+    Bienvenue! I'm a Carnegie Mellon alumna working in portfolio and trading
+    strategy, now headed to Stanford GSB (MBA '28) in Palo Alto. I'm
+    increasingly curious about where AI is headed in finance, write on
+    Substack, and keep a running list of what I'm reading — feel free to
+    reach out if you'd like to connect.
   actions:
     - label: View CV ↓
       url: /cv/
       style: primary
-    - label: "// Connect"
+    - label: Get in touch
       url: "mailto:sabrinaz@alumni.cmu.edu"
       style: outline
-  stats:
-    - label: Role
-      value: Portfolio Strategy Associate
-    - label: Focus
-      value: Quant Investing
-    - label: Location
-      value: New York, NY
-    - label: Status
-      value: Open to Connect
+  badges:
+    - Portfolio & Trading @ Manteio Partners
+    - Stanford GSB '28
+    - Palo Alto, CA
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

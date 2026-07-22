@@ -19,23 +19,19 @@ layout: default
             {% endfor %}
           </div>
         {% endif %}
+        {% if page.hero.badges %}
+          <div class="fem-badges">
+            {% for badge in page.hero.badges %}
+              <span class="fem-badge">{{ badge }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
       <div class="fem-hero-graphic" aria-hidden="true">
-        <div class="fem-hero-grid"></div>
-        <div class="fem-hero-circle"></div>
-        <span class="fem-hero-tag">// EST. NYC</span>
+        <div class="fem-hero-blob fem-hero-blob--one"></div>
+        <div class="fem-hero-blob fem-hero-blob--two"></div>
       </div>
     </section>
-    {% if page.hero.stats %}
-      <div class="fem-stats">
-        {% for stat in page.hero.stats %}
-          <div class="fem-stats-item">
-            <p class="fem-stats-label">{{ stat.label }}</p>
-            <p class="fem-stats-value">{{ stat.value }}</p>
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
   {% else %}
     <header class="post-header">
       <h1 class="post-title">

@@ -135,6 +135,8 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@sabrina_zafar/feed
+  - name: substack
+    rss_url: https://siliconevalley.substack.com/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -214,7 +216,6 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -582,23 +583,3 @@ third_party_libraries:
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
 
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references

@@ -30,17 +30,16 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// Feminine editorial palette
-$cream-color: #faf3ee !default;
-$cream-color-dark: #f1e2da !default;
-$ink-color: #2c2126 !default;
-$ink-color-light: #6e5c62 !default;
-$rose-color: #b1546b !default;
-$rose-color-light: #e2aab8 !default;
-$terracotta-color: #c97b63 !default;
-$plum-color: #351f2c !default;
-$plum-color-light: #4c2e3f !default;
-$gold-color: #c9a15a !default;
+// Editorial pastel palette
+$surface-color: #fffafa !default; // rgb(255, 250, 250)
+$surface-color-alt: #eef3fc !default;
+$ink-color: #3d4152 !default;
+$ink-color-light: #7a7f92 !default;
+$accent-color: #dbe7fb !default;
+$accent-color-soft: #eef3fd !default;
+$accent-color-deep: #6f8fc9 !default;
+$contrast-color: #262a38 !default;
+$contrast-color-light: #363c4d !default;
 
 // Type
 $font-serif: "Fraunces", "Georgia", serif !default;

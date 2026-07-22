@@ -8,47 +8,49 @@
     - name: Phone
       value: (703) 655-5521
     - name: Website
-      value: "<a href='https://sabrinaz.github.io'>sabrinaz.github.io</a>"
+      value: "<a href='https://sabrinazaf.github.io'>sabrinazaf.github.io</a>"
     - name: Summary
       value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Portfolio Strategy Associate
-      institution: UBS Asset Management
-      year: 2024 - Present
+    - title: Portfolio and Trading Associate
+      institution: Manteio Partners | Mast Investments, Jersey City, NJ
+      year: November 2024 - Present
       description:
-        - Mast Investments is a spin-out of UBS Quantitative Investment Strategies.
-        - Develop interactive performance analytics dashboards to support internal portfolio reviews and enhance client-facing materials for investment strategy updates.
-        - Partner with the CIO to lead strategic portfolio rebalancing and trading, aligning investment decisions with client mandates, macroeconomic trends, and risk parameters.
-        - Oversee equity strategies that consistently outperform benchmarks, delivering detailed performance attribution, investment rationale, and forward-looking market commentary.
-        - Lead investor relations and spearhead capital-raising efforts, working closely with the CIO to secure multimillion-dollar commitments from institutional investors.
+        - Architected end-to-end ETF launch strategy for four funds — defined problem structure, identified key stakeholders (LMMs, exchanges, market makers), and built operational framework from the ground up in a 6-person firm with no existing ETF infrastructure.
+        - Authored two institutional white papers articulating fund investment strategy, portfolio construction methodology, and risk framework; materials used directly in client acquisition and regulatory positioning.
+        - Led structured business development with institutional clients — diagnosed investor priorities, built tailored financial projections, and secured $40M in new investments in H1 2025; drove a 350% increase in marketing engagement and a 250% rise in reverse inquiries from Q4 2024 to Q2 2025.
+        - Manage investor relations across 2,000+ retail and institutional clients; partner with C-suite (CIO, CEO, CCO) to develop and distribute pitchbooks, fund updates, and externally-facing strategy materials.
+        - Oversee $600M AUM across 3 portfolios with the CIO; structure rebalancing decisions with the trading desk and broker-dealers, delivering 3% higher returns in Q1 2025 vs. Q4 2024 and 13% outperformance vs. the global stock index benchmark from Q3 2024 to Q1 2025.
 
-    - title: Quantitative Investment Solutions Analyst
-      institution: UBS Asset Management
-      year: 2022 - 2024
+    - title: Quantitative Analyst, Research & Technology
+      institution: UBS | Quantitative Investment Strategies (QIS), New York, NY
+      year: July 2022 - November 2024
       description:
-        - Oversee analysis and implementation of systematic strategies across multiple asset classes for $1.6B in AUM.
-        - Optimized event-driven and long-short equity strategies, improving risk-adjusted returns.
-        - Developed scalable portfolio valuation framework replacing spreadsheets for $400MM portfolio.
+        - Designed and executed systematic investment strategies across equities, bond futures, and commodities ($1.6B AUM); synthesized macro and quantitative signals to drive allocation decisions, achieving ~8% outperformance vs. benchmark (2022–2023) and 12% higher returns vs. target hedge fund indices in 2024.
+        - Identified operational risk through a self-initiated fund valuation audit; uncovered 50+ NAV pricing discrepancies, coordinated resolution across external administrators and internal teams, preventing $500K+ in restatement costs.
+        - Rebuilt investment models in Python 3, reducing processing time 97% (3 hrs to 5 min) and cutting execution errors by ~250%; produced client materials supporting a $500M new institutional mandate in 2022.
 
-    - title: Emerging Markets Quantitative Summer Analyst
-      institution: Citi
-      year: 2021
+    - title: Summer Quantitative Analyst and Citi Early ID Participant
+      institution: Citi | Emerging Markets Strategy, New York, NY
+      year: June - August 2021
       description:
-        - Researched quasi-sovereign credits and presented findings to external stakeholders.
-        - Conducted ESG strategy analysis for emerging market energy companies.
-        - Developed cryptocurrency market intelligence initiative.
+        - Applied SQL, Python, and Bloomberg to quantitative analysis across a multi-asset portfolio; independently initiated and presented cryptocurrency market research as part of a new firm-wide intelligence initiative.
 
 - title: Education
   type: time_table
   contents:
-    - title: B.S with Honors in Statistics and Machine Learning, Minor in Economics
+    - title: Master of Business Administration (MBA)
+      institution: Stanford Graduate School of Business, Palo Alto, CA
+      year: Expected May 2028
+    - title: "BS, Statistics & Machine Learning, Minor: Economics"
       institution: Carnegie Mellon University, Pittsburgh, PA
-      year: 2018 - 2022
+      year: Sep 2018 - May 2022
       description:
-        - GPA: 3.8
+        - "GPA: 3.78/4.00"
+        - "GMAT Focus: 705"
         - Relevant Courses:
             - Applied Machine Learning
             - Modern Regression
