@@ -13,17 +13,25 @@ module ExternalPosts
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
           puts "Fetching external posts from #{src['name']}:"
-          if src['rss_url']
-            fetch_from_rss(site, src)
-          elsif src['posts']
-            fetch_from_urls(site, src)
+          begin
+            if src['rss_url']
+              fetch_from_rss(site, src)
+            elsif src['posts']
+              fetch_from_urls(site, src)
+            end
+          rescue => e
+            puts "...failed to fetch #{src['name']}: #{e.message}"
           end
         end
       end
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      xml = HTTParty.get(
+        src['rss_url'],
+        headers: { 'User-Agent' => 'Mozilla/5.0 (compatible; JekyllExternalPosts/1.0; +https://sabrinazaf.github.io)' },
+        timeout: 15
+      ).body
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
