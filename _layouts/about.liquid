@@ -6,7 +6,7 @@ layout: default
     <section class="fem-hero">
       <div class="fem-hero-main">
         {% if page.hero.kicker %}
-          <p class="fem-hero-kicker"><span class="fem-hero-dot"></span>{{ page.hero.kicker }}</p>
+          <p class="fem-hero-kicker">{{ page.hero.kicker }}</p>
         {% endif %}
         <h1 class="fem-hero-title">{{ page.hero.tagline }}</h1>
         {% if page.hero.intro %}
@@ -20,17 +20,15 @@ layout: default
           </div>
         {% endif %}
         {% if page.hero.badges %}
-          <div class="fem-badges">
+          <p class="fem-badges">
             {% for badge in page.hero.badges %}
               <span class="fem-badge">{{ badge }}</span>
+              {% unless forloop.last %}<span class="fem-badge-sep">/</span>{% endunless %}
             {% endfor %}
-          </div>
+          </p>
         {% endif %}
       </div>
-      <div class="fem-hero-graphic" aria-hidden="true">
-        <div class="fem-hero-blob fem-hero-blob--one"></div>
-        <div class="fem-hero-blob fem-hero-blob--two"></div>
-      </div>
+      <div class="fem-hero-graphic" aria-hidden="true"></div>
     </section>
   {% else %}
     <header class="post-header">
