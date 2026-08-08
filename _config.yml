@@ -135,8 +135,11 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@sabrina_zafar/feed
-  - name: substack
-    rss_url: https://siliconevalley.substack.com/feed
+  # Substack (siliconevalley.substack.com) is fetched via this same mechanism
+  # locally, but consistently fails to load from the GitHub Actions deploy
+  # runner (likely blocked/rate-limited server-side) — see _plugins/external-posts.rb.
+  # Substack posts are added manually as regular files under _posts/ instead;
+  # see _posts/2026-06-19-the-death-of-leetcode.md for the pattern to follow.
 
 # -----------------------------------------------------------------------------
 # Newsletter
