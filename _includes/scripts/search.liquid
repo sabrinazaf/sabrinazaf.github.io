@@ -48,7 +48,7 @@
                   {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.url -%}{%- endif -%}
                   id: "dropdown-{{ title | slugify }}",
                   title: "{{ title | truncatewords: 13 }}",
-                  description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
+                  description: {{ child.description | strip_html | strip_newlines | strip | jsonify }},
                   section: "Dropdown",
                   handler: () => {
                     window.location.href = "{{ url | relative_url }}";
@@ -63,7 +63,7 @@
               {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
               id: "nav-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
-              description: "{{ p.description | strip_html | strip_newlines | escape | strip }}",
+              description: {{ p.description | strip_html | strip_newlines | strip | jsonify }},
               section: "Navigation",
               handler: () => {
                 window.location.href = "{{ url | relative_url }}";
@@ -83,7 +83,7 @@
           {% else %}
             title: "{{ title | truncatewords: 13 }}",
           {% endif %}
-          description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
+          description: {{ post.description | strip_html | strip_newlines | strip | jsonify }},
           section: "Posts",
           handler: () => {
             {% if post.redirect == blank %}
@@ -107,7 +107,7 @@
               {%- endif -%}
               id: "{{ collection.label }}-{{ title | slugify }}",
               title: '{{ title | emojify | truncatewords: 13 }}',
-              description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
+              description: {{ item.description | strip_html | strip_newlines | strip | jsonify }},
               section: "{{ collection.label | capitalize }}",
               {%- unless item.inline -%}
                 handler: () => {
