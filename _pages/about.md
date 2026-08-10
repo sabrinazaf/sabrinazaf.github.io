@@ -9,11 +9,11 @@ hero:
   tagline: >
     Spreadsheets by day, <em>stories</em> by night.
   intro: >
-    Bienvenue! I'm a Carnegie Mellon alumna working in portfolio and trading
-    strategy, now headed to Stanford GSB (MBA '28) in Palo Alto. I'm
-    increasingly curious about where AI is headed in finance, write on
-    Substack, and keep a running list of what I'm reading — feel free to
-    reach out if you'd like to connect.
+    I'm an MBA student at Stanford GSB and a former quant researcher,
+    interested in AI, markets, and culture, especially where the three
+    collide. Outside of developing (and breaking) ML models, I write,
+    explore new cities, review restaurants on the side, and bake with mixed
+    results.
   actions:
     - label: View CV ↓
       url: /cv/
