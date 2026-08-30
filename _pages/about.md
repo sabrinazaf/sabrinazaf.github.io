@@ -6,6 +6,8 @@ permalink: /
 hero:
   kicker: Investor &amp; Writer, Stanford GSB '28
   title: Sabrina Zafar
+  image: sabrina_hero.jpg
+  image_alt: Sabrina Zafar
   tagline: >
     Spreadsheets by day, <em>stories</em> by night.
   intro: >

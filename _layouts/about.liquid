@@ -28,7 +28,11 @@ layout: default
           </p>
         {% endif %}
       </div>
-      <div class="fem-hero-graphic" aria-hidden="true"></div>
+      <div class="fem-hero-graphic">
+        {% if page.hero.image %}
+          <img src="{{ page.hero.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.hero.image_alt | default: page.hero.title }}" loading="eager">
+        {% endif %}
+      </div>
     </section>
   {% else %}
     <header class="post-header">

@@ -149,3 +149,11 @@ html[data-theme="dark"] .fem-hero-title em {
 html[data-theme="dark"] .fem-hero-graphic {
   background: linear-gradient(160deg, $accent-color-deep 0%, $contrast-color-light 100%);
 }
+
+.fem-hero-graphic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
