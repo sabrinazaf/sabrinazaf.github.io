@@ -37,7 +37,8 @@
       description:
         - "GPA: 3.78/4.00"
         - "GMAT Focus: 705"
-        - Relevant Courses:
+        - title: Relevant Courses
+          contents:
             - Applied Machine Learning
             - Modern Regression
             - Probability Theory
