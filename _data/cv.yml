@@ -1,17 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Sabrina Zafar
-    - name: Email
-      value: sabrinaz@alumni.cmu.edu
-    - name: Phone
-      value: (703) 655-5521
-    - name: Website
-      value: "<a href='https://sabrinazaf.github.io'>sabrinazaf.github.io</a>"
-    - name: Summary
-      value: Intellectually curious professional with experience in investment strategy research. Adept in deriving and communicating actionable insights from large datasets to drive informed decision-making.
-
 - title: Experience
   type: time_table
   contents:
@@ -44,7 +30,7 @@
   contents:
     - title: Master of Business Administration (MBA)
       institution: Stanford Graduate School of Business, Palo Alto, CA
-      year: Expected May 2028
+      year: 2026 - 2028
     - title: "BS, Statistics & Machine Learning, Minor: Economics"
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: Sep 2018 - May 2022
