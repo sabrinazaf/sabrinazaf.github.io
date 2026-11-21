@@ -15,7 +15,27 @@ map: true
   <div id="eats-stats" class="eats-stats" aria-label="At a glance"></div>
 
   <section>
-    <p class="eats-kicker">01 &middot; where</p>
+    <p class="eats-kicker">01 &middot; the pattern</p>
+    <h2>Two quick looks</h2>
+    <p class="eats-lede">
+      Each dot is a place, plotted by where I ranked it within its category (100 = my favourite, 0 = my least).
+      The line is a smoothed trend with a 95% band. On the left: do the notes I write match where I rank things?
+      On the right: has my taste drifted since I started logging?
+    </p>
+    <div class="eats-scatter-grid">
+      <div>
+        <h3>Note warmth vs. rank</h3>
+        <div id="eats-scatter-sent"></div>
+      </div>
+      <div>
+        <h3>Rank vs. when I logged it</h3>
+        <div id="eats-scatter-years"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eats-kicker">02 &middot; where</p>
     <h2>Everywhere I've ranked</h2>
     <p class="eats-lede">
       Every circle is a city. <b>Size</b> is how many places I've ranked there; <b>colour</b> is how well they did,
@@ -35,7 +55,7 @@ map: true
   </section>
 
   <section>
-    <p class="eats-kicker">02 &middot; home turf</p>
+    <p class="eats-kicker">03 &middot; home turf</p>
     <h2>Where I eat, and where I want to</h2>
     <p class="eats-lede">Solid bars are places I've ranked; dashed bars are bookmarked places I haven't tried yet.</p>
     <div id="eats-cities" class="eats-rows"></div>
@@ -43,7 +63,7 @@ map: true
   </section>
 
   <section>
-    <p class="eats-kicker">03 &middot; the log</p>
+    <p class="eats-kicker">04 &middot; the log</p>
     <h2>When I add things</h2>
     <p class="eats-lede">
       New entries per month, stacked by category. A place is added when I rank it, so this is a log of when I rated
@@ -54,7 +74,19 @@ map: true
   </section>
 
   <section>
-    <p class="eats-kicker">04 &middot; the model</p>
+    <p class="eats-kicker">05 &middot; the list</p>
+    <h2>My rankings</h2>
+    <div class="eats-controls">
+      <div class="eats-group" id="eats-tabs" role="group" aria-label="Category"></div>
+      <input id="eats-q" class="eats-search" type="search" placeholder="search a place or city" aria-label="Search places">
+      <span id="eats-filter"></span>
+    </div>
+    <ol id="eats-list" class="eats-list"></ol>
+    <div id="eats-more" class="eats-more"></div>
+  </section>
+
+  <section>
+    <p class="eats-kicker">06 &middot; the model</p>
     <h2>What lines up with where I rank a place?</h2>
     <p class="eats-lede">
       Beli ranks each category in order, so every category has its own #1. I turned each rank into a percentile
@@ -68,39 +100,19 @@ map: true
     <div id="eats-forest"></div>
     <ul id="eats-takes" class="eats-takes"></ul>
 
-    <div class="eats-scatter-grid">
-      <div>
-        <h3>Note warmth vs. rank</h3>
-        <div id="eats-scatter-sent"></div>
-      </div>
-      <div>
-        <h3>Rank vs. when I logged it</h3>
-        <div id="eats-scatter-years"></div>
-      </div>
-    </div>
-
     <h3>Words that show up in my notes</h3>
     <p class="eats-lede">Words that show up more in my notes on places I rank in my top third (left) than my bottom third, and the reverse (right). Bars show how lopsided the word is.</p>
     <div id="eats-words" class="eats-words"></div>
-
-    <h3>Cuisine, inferred from names</h3>
-    <p class="eats-lede" id="eats-cuisine-lede"></p>
-    <div id="eats-cuisine"></div>
 
     <h3>How predictable am I?</h3>
     <p class="eats-lede" id="eats-fit"></p>
   </section>
 
   <section>
-    <p class="eats-kicker">05 &middot; the list</p>
-    <h2>My rankings</h2>
-    <div class="eats-controls">
-      <div class="eats-group" id="eats-tabs" role="group" aria-label="Category"></div>
-      <input id="eats-q" class="eats-search" type="search" placeholder="search a place or city" aria-label="Search places">
-      <span id="eats-filter"></span>
-    </div>
-    <ol id="eats-list" class="eats-list"></ol>
-    <div id="eats-more" class="eats-more"></div>
+    <p class="eats-kicker">07 &middot; one more thing</p>
+    <h2>Cuisine, inferred from names</h2>
+    <p class="eats-lede" id="eats-cuisine-lede"></p>
+    <div id="eats-cuisine"></div>
   </section>
 </div>
 
