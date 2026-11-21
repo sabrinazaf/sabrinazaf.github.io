@@ -22,7 +22,9 @@ env:
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Pinned: ubuntu-latest moved to 26.04, where ruby/setup-ruby only ships the newest patch of
+    # each Ruby series, so the exact "3.2.2" below no longer resolves. 24.04 is where it last worked.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4

@@ -65,7 +65,10 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Pinned: "ubuntu-latest" moved to 26.04, where ruby/setup-ruby only ships the newest
+    # patch of each series, so the exact "3.2.2" below stopped resolving (Setup Ruby failed
+    # before anything was built). 24.04 is the image this pipeline was last known to work on.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
