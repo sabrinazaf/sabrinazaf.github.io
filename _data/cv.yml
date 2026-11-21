@@ -29,8 +29,11 @@
   type: time_table
   contents:
     - title: Master of Business Administration (MBA)
-      institution: Stanford Graduate School of Business, Palo Alto, CA
+      institution: Stanford Graduate School of Business, Stanford, CA
       year: 2026 - 2028
+      description:
+        - BOLD Fellow
+        - Forté Fellow
     - title: "BS, Statistics & Machine Learning, Minor: Economics"
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: Sep 2018 - May 2022
@@ -67,18 +70,20 @@
         - MATLAB
         - C
         - SQL
-        - Libraries/Packages:
-            - scikit-learn
-            - pandas
-            - numpy
-            - PyTorch
-            - seaborn
-            - ggplot2
-            - quantlib
-            - quantstrat
-            - stats
-            - zoo
-            - glmnet
+
+    - title: Libraries/Packages
+      items:
+        - scikit-learn
+        - pandas
+        - numpy
+        - PyTorch
+        - seaborn
+        - ggplot2
+        - quantlib
+        - quantstrat
+        - stats
+        - zoo
+        - glmnet
 
 - title: Honors and Awards
   type: time_table
