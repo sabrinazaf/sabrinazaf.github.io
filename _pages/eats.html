@@ -1,0 +1,107 @@
+---
+layout: page
+title: eats
+permalink: /eats/
+description: Everywhere I've eaten and ranked, mapped, plus an honest attempt to model my own taste.
+nav: true
+nav_order: 3
+map: true
+---
+<link rel="stylesheet" href="{{ '/assets/eats/eats.css' | relative_url | bust_file_cache }}">
+
+<div id="eats-root" class="eats" data-src="{{ '/assets/json/eats.json' | relative_url | bust_file_cache }}">
+  <noscript><p class="eats-fallback">This page draws its map and charts with JavaScript. Turn it on to see them.</p></noscript>
+
+  <div id="eats-stats" class="eats-stats" aria-label="At a glance"></div>
+
+  <section>
+    <p class="eats-kicker">01 &middot; where</p>
+    <h2>Everywhere I've ranked</h2>
+    <p class="eats-lede">
+      Every circle is a city. <b>Size</b> is how many places I've ranked there; <b>colour</b> is how well they did,
+      the average rank percentile of my picks (cities with three or more). Dashed rings are my want-to-try list.
+      Click a circle for the highlights.
+    </p>
+    <div class="eats-controls">
+      <div class="eats-group" id="eats-mode" role="group" aria-label="Map layer"></div>
+      <div class="eats-group" id="eats-regions" role="group" aria-label="Zoom to region"></div>
+    </div>
+    <div id="eats-map" class="eats-map" role="region" aria-label="Map of the cities I have ranked restaurants in"></div>
+    <div id="eats-legend" class="eats-legend"></div>
+    <p class="eats-note">
+      City-level only: the Beli export has no street addresses, so 200-odd New York places share one circle.
+      Scroll-zoom turns on after you click the map.
+    </p>
+  </section>
+
+  <section>
+    <p class="eats-kicker">02 &middot; home turf</p>
+    <h2>Where I eat, and where I want to</h2>
+    <p class="eats-lede">Solid bars are places I've ranked; dashed bars are bookmarked places I haven't tried yet.</p>
+    <div id="eats-cities" class="eats-rows"></div>
+    <p class="eats-note">The axis is cut short so the next cities are readable; bars with a slash run longer than shown (the label has the real number).</p>
+  </section>
+
+  <section>
+    <p class="eats-kicker">03 &middot; the log</p>
+    <h2>When I add things</h2>
+    <p class="eats-lede">
+      New entries per month, stacked by category. A place is added when I rank it, so this is a log of when I rated
+      things, which is close to, but not exactly, when I ate there.
+    </p>
+    <div id="eats-timeline-key" class="eats-key"></div>
+    <div id="eats-timeline"></div>
+  </section>
+
+  <section>
+    <p class="eats-kicker">04 &middot; the model</p>
+    <h2>What lines up with where I rank a place?</h2>
+    <p class="eats-lede">
+      Beli ranks each category in order, so every category has its own #1. I turned each rank into a percentile
+      score (100 = my favourite, 0 = my least favourite) and asked what lines up with it. It's exploratory:
+      about 430 data points, observational, nothing causal. Dots are effects in percentile points with 95% confidence
+      intervals; fuchsia means the interval clears zero.
+    </p>
+
+    <h3>Effect sizes, all at once</h3>
+    <div id="eats-forest-key" class="eats-key"></div>
+    <div id="eats-forest"></div>
+    <ul id="eats-takes" class="eats-takes"></ul>
+
+    <div class="eats-scatter-grid">
+      <div>
+        <h3>Note warmth vs. rank</h3>
+        <div id="eats-scatter-sent"></div>
+      </div>
+      <div>
+        <h3>Rank vs. when I logged it</h3>
+        <div id="eats-scatter-years"></div>
+      </div>
+    </div>
+
+    <h3>Words that show up in my notes</h3>
+    <p class="eats-lede">Words that show up more in my notes on places I rank in my top third (left) than my bottom third, and the reverse (right). Bars show how lopsided the word is.</p>
+    <div id="eats-words" class="eats-words"></div>
+
+    <h3>Cuisine, inferred from names</h3>
+    <p class="eats-lede" id="eats-cuisine-lede"></p>
+    <div id="eats-cuisine"></div>
+
+    <h3>How predictable am I?</h3>
+    <p class="eats-lede" id="eats-fit"></p>
+  </section>
+
+  <section>
+    <p class="eats-kicker">05 &middot; the list</p>
+    <h2>My rankings</h2>
+    <div class="eats-controls">
+      <div class="eats-group" id="eats-tabs" role="group" aria-label="Category"></div>
+      <input id="eats-q" class="eats-search" type="search" placeholder="search a place or city" aria-label="Search places">
+      <span id="eats-filter"></span>
+    </div>
+    <ol id="eats-list" class="eats-list"></ol>
+    <div id="eats-more" class="eats-more"></div>
+  </section>
+</div>
+
+<script src="{{ '/assets/eats/eats.js' | relative_url | bust_file_cache }}" defer></script>

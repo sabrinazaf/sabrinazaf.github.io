@@ -1,0 +1,614 @@
+[
+ {
+  "city": "Alexandria, VA",
+  "lat": 38.8048,
+  "lng": -77.0469,
+  "cc": "US"
+ },
+ {
+  "city": "Antibes",
+  "lat": 43.5813,
+  "lng": 7.1249,
+  "cc": "FR"
+ },
+ {
+  "city": "Arlington, VA",
+  "lat": 38.881,
+  "lng": -77.1043,
+  "cc": "US"
+ },
+ {
+  "city": "Ashburn, VA",
+  "lat": 39.0437,
+  "lng": -77.4875,
+  "cc": "US"
+ },
+ {
+  "city": "Atlantic City, NJ",
+  "lat": 39.3642,
+  "lng": -74.4231,
+  "cc": "US"
+ },
+ {
+  "city": "Bayonne, NJ",
+  "lat": 40.6687,
+  "lng": -74.1143,
+  "cc": "US"
+ },
+ {
+  "city": "Beaune",
+  "lat": 47.0241,
+  "lng": 4.8389,
+  "cc": "FR"
+ },
+ {
+  "city": "Berkeley, CA",
+  "lat": 37.8716,
+  "lng": -122.2728,
+  "cc": "US"
+ },
+ {
+  "city": "Beverly Hills, CA",
+  "lat": 34.0736,
+  "lng": -118.4004,
+  "cc": "US"
+ },
+ {
+  "city": "Bol",
+  "lat": 43.2619,
+  "lng": 16.655,
+  "cc": "HR"
+ },
+ {
+  "city": "Boston, MA",
+  "lat": 42.3584,
+  "lng": -71.0598,
+  "cc": "US"
+ },
+ {
+  "city": "Broadlands, VA",
+  "lat": 39.0182,
+  "lng": -77.5203,
+  "cc": "US"
+ },
+ {
+  "city": "Busan",
+  "lat": 35.1017,
+  "lng": 129.03,
+  "cc": "KR"
+ },
+ {
+  "city": "Cabo San Lucas",
+  "lat": 22.8909,
+  "lng": -109.9124,
+  "cc": "MX"
+ },
+ {
+  "city": "Cagliari",
+  "lat": 39.2305,
+  "lng": 9.1192,
+  "cc": "IT"
+ },
+ {
+  "city": "Calabasas, CA",
+  "lat": 34.1578,
+  "lng": -118.6384,
+  "cc": "US"
+ },
+ {
+  "city": "Calistoga, CA",
+  "lat": 38.5788,
+  "lng": -122.5797,
+  "cc": "US"
+ },
+ {
+  "city": "Cambridge, MA",
+  "lat": 42.3751,
+  "lng": -71.1056,
+  "cc": "US"
+ },
+ {
+  "city": "Carlsbad, CA",
+  "lat": 33.1581,
+  "lng": -117.3506,
+  "cc": "US"
+ },
+ {
+  "city": "Centreville, VA",
+  "lat": 38.8404,
+  "lng": -77.4289,
+  "cc": "US"
+ },
+ {
+  "city": "Chantilly, VA",
+  "lat": 38.8943,
+  "lng": -77.4311,
+  "cc": "US"
+ },
+ {
+  "city": "Chicago, IL",
+  "lat": 41.85,
+  "lng": -87.65,
+  "cc": "US"
+ },
+ {
+  "city": "Concordville, PA",
+  "lat": 39.8893,
+  "lng": -75.536,
+  "cc": "US"
+ },
+ {
+  "city": "Copenhagen",
+  "lat": 55.6759,
+  "lng": 12.5655,
+  "cc": "DK"
+ },
+ {
+  "city": "Cuauhtémoc",
+  "lat": 19.4326,
+  "lng": -99.15,
+  "cc": "MX"
+ },
+ {
+  "city": "Culver City, CA",
+  "lat": 34.0211,
+  "lng": -118.3965,
+  "cc": "US"
+ },
+ {
+  "city": "Denver, CO",
+  "lat": 39.7392,
+  "lng": -104.9847,
+  "cc": "US"
+ },
+ {
+  "city": "El Cajon, CA",
+  "lat": 32.7948,
+  "lng": -116.9625,
+  "cc": "US"
+ },
+ {
+  "city": "Falls Church, VA",
+  "lat": 38.8823,
+  "lng": -77.1711,
+  "cc": "US"
+ },
+ {
+  "city": "Florence",
+  "lat": 43.7792,
+  "lng": 11.2463,
+  "cc": "IT"
+ },
+ {
+  "city": "George Town",
+  "lat": 19.2866,
+  "lng": -81.3744,
+  "cc": "KY"
+ },
+ {
+  "city": "Grand Cayman",
+  "lat": 19.3133,
+  "lng": -81.2546,
+  "cc": "KY"
+ },
+ {
+  "city": "Great Falls, VA",
+  "lat": 38.9982,
+  "lng": -77.2883,
+  "cc": "US"
+ },
+ {
+  "city": "Harriman, NY",
+  "lat": 41.3084,
+  "lng": -74.1446,
+  "cc": "US"
+ },
+ {
+  "city": "Herndon, VA",
+  "lat": 38.9695,
+  "lng": -77.3861,
+  "cc": "US"
+ },
+ {
+  "city": "Hoboken, NJ",
+  "lat": 40.744,
+  "lng": -74.0324,
+  "cc": "US"
+ },
+ {
+  "city": "Hvar",
+  "lat": 43.1725,
+  "lng": 16.4428,
+  "cc": "HR"
+ },
+ {
+  "city": "Inglewood, CA",
+  "lat": 33.9617,
+  "lng": -118.3531,
+  "cc": "US"
+ },
+ {
+  "city": "Jersey City, NJ",
+  "lat": 40.7282,
+  "lng": -74.0776,
+  "cc": "US"
+ },
+ {
+  "city": "Kaštel Gomilica",
+  "lat": 43.55,
+  "lng": 16.4,
+  "cc": "HR"
+ },
+ {
+  "city": "Kennett Square, PA",
+  "lat": 39.8468,
+  "lng": -75.7116,
+  "cc": "US"
+ },
+ {
+  "city": "Las Vegas, NV",
+  "lat": 36.175,
+  "lng": -115.1372,
+  "cc": "US"
+ },
+ {
+  "city": "Leesburg, VA",
+  "lat": 39.1157,
+  "lng": -77.5636,
+  "cc": "US"
+ },
+ {
+  "city": "Lisbon",
+  "lat": 38.7251,
+  "lng": -9.1498,
+  "cc": "PT"
+ },
+ {
+  "city": "London",
+  "lat": 51.5085,
+  "lng": -0.1257,
+  "cc": "GB"
+ },
+ {
+  "city": "Los Altos, CA",
+  "lat": 37.3852,
+  "lng": -122.1141,
+  "cc": "US"
+ },
+ {
+  "city": "Los Angeles, CA",
+  "lat": 34.0522,
+  "lng": -118.2437,
+  "cc": "US"
+ },
+ {
+  "city": "Lyndhurst, NJ",
+  "lat": 40.812,
+  "lng": -74.1243,
+  "cc": "US"
+ },
+ {
+  "city": "Makarska",
+  "lat": 43.2969,
+  "lng": 17.0178,
+  "cc": "HR"
+ },
+ {
+  "city": "Marrakech",
+  "lat": 31.6342,
+  "lng": -7.9999,
+  "cc": "MA"
+ },
+ {
+  "city": "McLean, VA",
+  "lat": 38.9343,
+  "lng": -77.1775,
+  "cc": "US"
+ },
+ {
+  "city": "Menlo Park, CA",
+  "lat": 37.4538,
+  "lng": -122.1822,
+  "cc": "US"
+ },
+ {
+  "city": "Menton",
+  "lat": 43.7765,
+  "lng": 7.5043,
+  "cc": "FR"
+ },
+ {
+  "city": "Mexico City",
+  "lat": 19.4285,
+  "lng": -99.1277,
+  "cc": "MX"
+ },
+ {
+  "city": "Miami Beach, FL",
+  "lat": 25.7906,
+  "lng": -80.13,
+  "cc": "US"
+ },
+ {
+  "city": "Miami, FL",
+  "lat": 25.7743,
+  "lng": -80.1937,
+  "cc": "US"
+ },
+ {
+  "city": "Mountain View, CA",
+  "lat": 37.386,
+  "lng": -122.0838,
+  "cc": "US"
+ },
+ {
+  "city": "Napa, CA",
+  "lat": 38.2971,
+  "lng": -122.2855,
+  "cc": "US"
+ },
+ {
+  "city": "Nara",
+  "lat": 34.685,
+  "lng": 135.8048,
+  "cc": "JP"
+ },
+ {
+  "city": "Nashville, TN",
+  "lat": 36.1659,
+  "lng": -86.7844,
+  "cc": "US"
+ },
+ {
+  "city": "New York, NY",
+  "lat": 40.7143,
+  "lng": -74.006,
+  "cc": "US"
+ },
+ {
+  "city": "Newtown Square, PA",
+  "lat": 39.9887,
+  "lng": -75.4099,
+  "cc": "US"
+ },
+ {
+  "city": "Nice",
+  "lat": 43.7031,
+  "lng": 7.2661,
+  "cc": "FR"
+ },
+ {
+  "city": "Olang",
+  "lat": 46.7603,
+  "lng": 12.0295,
+  "cc": "IT"
+ },
+ {
+  "city": "Ormskirk",
+  "lat": 53.5669,
+  "lng": -2.8818,
+  "cc": "GB"
+ },
+ {
+  "city": "Osaka",
+  "lat": 34.6938,
+  "lng": 135.5011,
+  "cc": "JP"
+ },
+ {
+  "city": "Palo Alto, CA",
+  "lat": 37.4419,
+  "lng": -122.143,
+  "cc": "US"
+ },
+ {
+  "city": "Paris",
+  "lat": 48.8534,
+  "lng": 2.3488,
+  "cc": "FR"
+ },
+ {
+  "city": "Paterson, NJ",
+  "lat": 40.9168,
+  "lng": -74.1718,
+  "cc": "US"
+ },
+ {
+  "city": "Philadelphia, PA",
+  "lat": 39.9524,
+  "lng": -75.1636,
+  "cc": "US"
+ },
+ {
+  "city": "Pine Plains, NY",
+  "lat": 41.9798,
+  "lng": -73.656,
+  "cc": "US"
+ },
+ {
+  "city": "Pittsburgh, PA",
+  "lat": 40.4406,
+  "lng": -79.9959,
+  "cc": "US"
+ },
+ {
+  "city": "Portola Valley, CA",
+  "lat": 37.3841,
+  "lng": -122.2352,
+  "cc": "US"
+ },
+ {
+  "city": "Potomac Falls, VA",
+  "lat": 39.0807,
+  "lng": -77.38,
+  "cc": "US"
+ },
+ {
+  "city": "Redwood City, CA",
+  "lat": 37.4852,
+  "lng": -122.2364,
+  "cc": "US"
+ },
+ {
+  "city": "Reston, VA",
+  "lat": 38.9687,
+  "lng": -77.3411,
+  "cc": "US"
+ },
+ {
+  "city": "Ridgefield, NJ",
+  "lat": 40.8343,
+  "lng": -74.0088,
+  "cc": "US"
+ },
+ {
+  "city": "Rome",
+  "lat": 41.8919,
+  "lng": 12.5113,
+  "cc": "IT"
+ },
+ {
+  "city": "San Diego, CA",
+  "lat": 32.7157,
+  "lng": -117.1647,
+  "cc": "US"
+ },
+ {
+  "city": "San Francisco, CA",
+  "lat": 37.7749,
+  "lng": -122.4194,
+  "cc": "US"
+ },
+ {
+  "city": "San Jose, CA",
+  "lat": 37.3394,
+  "lng": -121.895,
+  "cc": "US"
+ },
+ {
+  "city": "San Mateo, CA",
+  "lat": 37.563,
+  "lng": -122.3255,
+  "cc": "US"
+ },
+ {
+  "city": "Santa Barbara, CA",
+  "lat": 34.4208,
+  "lng": -119.6982,
+  "cc": "US"
+ },
+ {
+  "city": "Santa Cruz, CA",
+  "lat": 36.9741,
+  "lng": -122.0308,
+  "cc": "US"
+ },
+ {
+  "city": "Seoul",
+  "lat": 37.566,
+  "lng": 126.9784,
+  "cc": "KR"
+ },
+ {
+  "city": "Shanghai",
+  "lat": 31.2222,
+  "lng": 121.4581,
+  "cc": "CN"
+ },
+ {
+  "city": "Shibuya",
+  "lat": 35.6589,
+  "lng": 139.7066,
+  "cc": "JP"
+ },
+ {
+  "city": "Somerville, MA",
+  "lat": 42.3876,
+  "lng": -71.0995,
+  "cc": "US"
+ },
+ {
+  "city": "South Lake Tahoe, CA",
+  "lat": 38.9332,
+  "lng": -119.9844,
+  "cc": "US"
+ },
+ {
+  "city": "Stanford, CA",
+  "lat": 37.4241,
+  "lng": -122.1661,
+  "cc": "US"
+ },
+ {
+  "city": "Sterling, VA",
+  "lat": 39.0062,
+  "lng": -77.4286,
+  "cc": "US"
+ },
+ {
+  "city": "Suffern, NY",
+  "lat": 41.1148,
+  "lng": -74.1496,
+  "cc": "US"
+ },
+ {
+  "city": "Tinton Falls, NJ",
+  "lat": 40.3043,
+  "lng": -74.1004,
+  "cc": "US"
+ },
+ {
+  "city": "Tokyo",
+  "lat": 35.6895,
+  "lng": 139.6917,
+  "cc": "JP"
+ },
+ {
+  "city": "Venice",
+  "lat": 45.4371,
+  "lng": 12.3326,
+  "cc": "IT"
+ },
+ {
+  "city": "Vienna, VA",
+  "lat": 38.9012,
+  "lng": -77.2653,
+  "cc": "US"
+ },
+ {
+  "city": "Washington, DC",
+  "lat": 38.8951,
+  "lng": -77.0364,
+  "cc": "US"
+ },
+ {
+  "city": "Washington, VA",
+  "lat": 38.7132,
+  "lng": -78.1595,
+  "cc": "US"
+ },
+ {
+  "city": "West Chester, PA",
+  "lat": 39.961,
+  "lng": -75.608,
+  "cc": "US"
+ },
+ {
+  "city": "West Hollywood, CA",
+  "lat": 34.09,
+  "lng": -118.3617,
+  "cc": "US"
+ },
+ {
+  "city": "Woodbridge, VA",
+  "lat": 38.6582,
+  "lng": -77.2497,
+  "cc": "US"
+ },
+ {
+  "city": "Woodside, CA",
+  "lat": 37.4299,
+  "lng": -122.2539,
+  "cc": "US"
+ }
+]
